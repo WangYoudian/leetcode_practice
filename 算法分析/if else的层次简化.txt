@@ -1,0 +1,21 @@
+示例代码：LeetCode 1254：统计封闭岛屿的数目
+def dfs(x: int, y: int) -> int:
+    tag = 1
+    grid[x][y] = 1
+    for dx, dy in [(0, 1), (0, -1), (-1, 0), (1, 0)]:
+        nx, ny = x + dx, y + dy
+        if not (0 <= nx < m and 0 <= ny < n):
+            tag = 0
+        elif grid[nx][ny] == 0:
+            tag &= dfs(nx, ny)
+
+作者：loyair
+链接：https://leetcode.cn/problems/number-of-closed-islands/solution/1254-tong-ji-feng-bi-dao-yu-de-shu-mu-by-976x/
+来源：力扣（LeetCode）
+
+分析：上述中if和elif之间，既可以认为是层级关系，也可以将第一个if作为
+    后面elif的前提（因此可以认为在进入grid[nx][ny]之前，不会导致越界），
+    或者这两个if elif的类似式子是if 0 <= nx < m and 0 <= ny < n and grid[nx][ny] == 0
+    但是因为要对tag进行不同操作，并且grid[nx][ny]依赖了不越界的判断（因此写在elif）
+    故而将逻辑划分成上述代码段这样子。
+在写业务代码时，类似的逻辑还有很多，均可利用这种方式进行简化。

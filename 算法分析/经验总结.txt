@@ -1,0 +1,4 @@
+动态规划：
+
+以122和123题买卖股票为例，对于n*k（k是dp[i]对应的横向状态数）这种一维序列（例如：按照时序给出的raw data），得出状态方程后，能优化尽量优化，最好可以i行内相互转移，让某些状态不依靠i-1行，从而减少状态耦合带来的影响，这个技巧能够帮自己在做题时更好的理清思路。
+题解：https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iii-by-wrnt/
