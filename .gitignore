@@ -1,5 +1,8 @@
 # Jetbrain config folder
 .idea/
+.vscode/
+
+output_test.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
