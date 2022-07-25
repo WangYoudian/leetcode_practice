@@ -1,0 +1,29 @@
+{
+    "editor.fontLigatures": false,
+    "editor.fontSize": 18,
+    "leetcode.workspaceFolder": "e:\\leetcode_practice",
+    "leetcode.defaultLanguage": "python3",
+    "leetcode.endpoint": "leetcode-cn",
+    "security.workspace.trust.untrustedFiles": "open",
+    "leetcode.editor.shortcuts": [
+        "submit",
+        "test",
+        "solution",
+        "description",
+        "star"
+    ],
+    "security.workspace.trust.enabled": false,
+    "leetcode.hideSolved": true,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.setDefaultLanguage": false,
+    "leetcode.showLocked": true,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.commentDescription": false,
+    "leetcode.filePath": {
+    
+        "default": {
+            "folder": "",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    }
+}
