@@ -1,6 +1,7 @@
 # Jetbrain config folder
 .idea/
 .vscode/
+leetcode_practice.code-workspace
 
 output_test.py
 
