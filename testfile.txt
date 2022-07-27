@@ -1,0 +1,4 @@
+test for git rebase <branch name> and git merge <branch name>
+(merge into current & rebase current onto selected)
+
+What is "merge commit"? How does it look like?
