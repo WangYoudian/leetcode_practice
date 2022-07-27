@@ -1,4 +1,3 @@
-# -----------------------------------------------------------
 #
 # @lc app=leetcode.cn id=919 lang=python3
 #
@@ -6,16 +5,12 @@
 #
 
 # @lc code=start
-from collections import deque
-
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
-
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class CBTInserter:
 
     def __init__(self, root: TreeNode):
@@ -47,13 +42,3 @@ class CBTInserter:
 
 # @lc code=end
 
-
-# ------------------------------------------------------------------------
-
-if __name__ == '__main__':
-    # Your CBTInserter object will be instantiated and called as such:
-    obj = CBTInserter(TreeNode(val=1, left=TreeNode(2)))
-    param_1 = obj.insert(3)
-    param_2 = obj.insert(4)
-    param_3 = obj.get_root()
-    print(param_1, param_2, param_3)
