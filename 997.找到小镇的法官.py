@@ -4,7 +4,7 @@
 # [997] 找到小镇的法官
 # 分析：小镇法官一定是拥有最多人信任的人，因此，流程上
 #       先找出被信任最多的人，然后确认此人是否有信任别人
-from functools import defaultdict
+from collections import defaultdict
 
 
 # @lc code=start
