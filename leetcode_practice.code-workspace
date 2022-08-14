@@ -4,5 +4,9 @@
 			"path": "F:\\leetcode_practice"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"popleft"
+		]
+	}
 }
