@@ -20,6 +20,10 @@ def count_special_numbers(n: int) -> int:
     return f(0, 0, True, False)
 
 
+def start():
+    print(count_special_numbers(n))
+
+
 if __name__ == '__main__':
     n = 20
-    print(count_special_numbers(n))
+    start()
